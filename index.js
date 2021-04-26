@@ -24,3 +24,7 @@ function appendKitten(name) {
 function functionName(name) {
   return [name, ...kittens]
 }
+
+function functionName() {
+
+}
