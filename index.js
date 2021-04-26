@@ -21,6 +21,6 @@ function appendKitten(name) {
   return [...kittens, name]
 }
 
-function functionName() {
-  return [name, ...kittens]
+function functionName(name) {
+  return kittens.slice(name)
 }
